@@ -1,49 +1,27 @@
-$(document).ready(function(){
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
 
-	// var API_KEY = '1886bae9081ab785b3f3fce43d0c66a7d52880cdcdfbb3ca8a66e2c33ecb3c0b';
-	// var headers = {'X-API-KEY': API_KEY};
+var data = {
+	labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+	datasets: [
+		{
+			label: "My Second dataset",
+			fillColor: "rgba(151,187,205,0.5)",
+			strokeColor: "rgba(151,187,205,0.8)",
+			highlightFill: "rgba(151,187,205,0.75)",
+			highlightStroke: "rgba(151,187,205,1)",
+			data: [235474, 108835, 105530, 72952, 65173, 62033, 25640, 16868, 15955, 14700]
+		}
+	]
+};
 
-	// $.ajax({
+var myBarChart = new Chart(ctx).Bar(data);
 
-	// 	url: 'https://api.change.org/v1/petitions/get_id',
-	// 	type: 'GET',
-	// 	dataType: 'jsonp',
-	// 	headers: headers,
-	// 	beforeSend: function(xhr){
+// Legend
+// Axis values
+// Different colors
 
-	// 		xhr.setRequestHeader('X-API-KEY', API_KEY);
-
-	// 	},
-	// 	success: function(data){
-
-	// 		console.log(data);
-
-	// 	},
-	// 	error: function(err){
-
-	// 		console.log(err);
-
-	// 	}
-
-	// });
-	
-	$('#get_button').on('click', function(){
-
-		$.ajax({
-			type: "GET",
-			url: 'https://api.whitehouse.gov/v1/petitions.json',
-			dataType: "jsonp",
-			cache: false,
-			crossDomain: true,
-
-			success: function (data) {
-				console.log(data);
-			},
-			error: function (err) {
-				console.log(err);
-			}
-		});
-
-	});
-
-});
+// Each bar will be link to another page
+// - Signature accumulation over time
+// - Link to page on the government website
+// - Start/End dates
