@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" />
 </head>
 <body>
 	
@@ -18,19 +19,21 @@
 				<div class="sixteen wide column">
 					
 					<div class="ui header segment page-header">
-						Project Petition - Home
+						[LOGO] Project Petition
 					</div>
 
 					<div class="ui top attached segment">
-						<h4 class="header">Introduction</h4>
+						<h4 class="ui header">Introduction</h4>
 					</div>
 					<div class="ui bottom attached segment">
-						Purpose of this website
+						Project description
+					</div>
 
-						<button id="get_button" class="ui blue button">
-							Get
-						</button>
-
+					<div class="ui top attached segment">
+						<h4 class="ui header">Popular Petitions on <a href="https://petitions.whitehouse.gov">petitions.whitehouse.gov</a></h4>
+					</div>
+					<div class="ui bottom attached segment">
+						<canvas id="myChart" class='my-chart'></canvas>
 					</div>
 
 				</div>
@@ -39,10 +42,11 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="semantic/dist/semantic.js"></script>
 	<script type="text/javascript" src="js/JSXTransformer.js"></script>
 	<script type="text/javascript" src="js/react.js"></script>
 	<script type="text/jsx" src="js/components/Sidebar.js"></script>
+
+	<script type="text/javascript" src="js/Chart.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
