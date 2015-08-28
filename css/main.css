@@ -1,10 +1,16 @@
 .global{
 	margin-left: 15rem;
 }
+
 .main{
 	width: 700px;
 	margin: 0 auto;
 }
+
 .page-header{
 	margin-top: 1em !important;
+}
+
+.hidden{
+	display: none !important;
 }
