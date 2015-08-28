@@ -11,9 +11,13 @@ var Sidebar = React.createClass({
 					<i className="file text icon"></i>
 					Petitioning Activity
 				</a>
-				<a className="item" href="graphs.html">
+				<a className="hidden item" href="graphs.html">
 					<i className="pie graph icon"></i>
 					Data Graphs
+				</a>
+				<a className="item" href="members.html">
+					<i className="users icon"></i>
+					Members
 				</a>
 				<a className="item" href="about.html">
 					<i className="info circle icon"></i>
