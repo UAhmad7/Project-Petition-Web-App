@@ -4,6 +4,7 @@
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.Account.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.Account.UserRole'
 grails.plugin.springsecurity.authority.className = 'com.Account.Role'
+grails.plugin.springsecurity.apf.postOnly = false
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/':                ['permitAll'],
 	'/error':           ['permitAll'],
