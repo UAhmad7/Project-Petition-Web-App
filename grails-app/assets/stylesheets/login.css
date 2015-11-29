@@ -1,0 +1,32 @@
+.jumbotron {
+  background: url(http://www.lancefarrow.ca/wp-content/uploads/2014/06/triangle-background-17.png) no-repeat center center;
+}
+
+.new-account-message {
+  margin-bottom: 0.5em;
+}
+
+.login-form {
+  margin-bottom: 1em;
+}
+
+.login-form .form-control {
+  height: auto;
+  padding: 0.6em;
+  font-size: 1em;
+}
+
+.login-form .checkbox {
+  font-weight: normal;
+}
+
+.login-form input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login-form input[type="password"] {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}

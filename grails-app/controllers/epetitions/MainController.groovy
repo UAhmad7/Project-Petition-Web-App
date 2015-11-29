@@ -1,8 +1,21 @@
 package epetitions
 
-class MainController {
+class MainController
+{
 
-    def index() {
-    	
-    }
+	def index() {
+		render (view: 'index.gsp')
+	}
+
+	def login() {
+		render (view: 'login.gsp')
+	}
+
+	def signup() {
+		render (view: 'signup.gsp')
+	}
+
+	def about() {
+		render (view: 'about.gsp')
+	}
 }
