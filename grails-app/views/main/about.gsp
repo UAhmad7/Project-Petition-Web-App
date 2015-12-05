@@ -18,9 +18,21 @@
 
 	<div class="jumbotron">
 		<div class="container text-center">
-			<div class="col-lg-6 col-lg-offset-3">
-				<h2>Welcome to Project Petition</h2>
-				<h4>Introductory paragraph goes here</h4>
+			<div class="col-lg-10 col-lg-offset-1">
+				<h2>About Project Petition</h2>
+				<h4>
+          This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span. Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.
+          <br><br>
+          This website also presents the work of Project Petition, a research project staffed by students and faculty from UAlbany's Departments of Computer Science, Economics, Informatics, and Communication. Our team, comprised now of 6 faculty members along with two doctoral students, 2 undergraduate students  and other graduate students, has been actively exploring e-petitioning systems since 2013.
+          <br><br>
+          Our work has focused on:
+          <br>
+          (1) a study that compares data on e-petitions and signature accumulation dynamics characteristic of WtP with data reported from e-petitioning studies in Great Britain and in Germany (see Harrison et al. 2014)
+          <br>
+          (2) the development of two case studies using social networking methods of e-petitioning activities that took place during the period of time directly following the tragic Sandy Hook shootings on December 12, 2012
+          <br>
+          (3) the use of natural language processing methods to explore naturally emerging citizen-generated topics central to e-petitions found on We the People.
+        </h4>
 			</div>
 		</div>
 	</div>
