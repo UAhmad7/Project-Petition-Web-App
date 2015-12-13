@@ -80,7 +80,7 @@ endpoints:
 dataSource:
     pooled: true
     jmxExport: true
-    driverClassName: org.h2.Driver
+    driverClassName: com.mysql.jdbc.Driver
     username: sa
     password:
 
@@ -88,8 +88,8 @@ environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
-            # url: jdbc:mysql://192.168.0.41:3306/website
+            # url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+            url: jdbc:mysql://192.168.0.41:3306/website
     test:
         dataSource:
             dbCreate: update
